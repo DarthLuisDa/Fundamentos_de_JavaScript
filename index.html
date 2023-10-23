@@ -8,43 +8,94 @@
 <body>
     <script>
 
-          var saludo = "¡Hola, Mundo!";
-          //alert(saludo);
+        //   var saludo = "¡Hola, Mundo!";
+        //   alert(saludo);
 
-          var nombre = "Daniel";
-          var edad = 26;
+        //   var nombre = "Daniel";
+        //   var edad = 84;
           //alert("La edad de"+ " " + nombre + " " + "es de" + " " + edad + " " + "años");
 
           //console.log(typeof edad);
 
-          var x = 7;
-          var y = 25;
+        //   var x = 7;
+        //   var y = 25;
 
-          var resultadoSuma = x + y;
-          console.log("El resultado de la suma es "+ resultadoSuma);
-          //alert("El Resultado de la suma es 15")
+        //   var resultadoSuma = x + y;
+        //   console.log("El resultado de la suma es "+ resultadoSuma);
+        //   //alert("El Resultado de la suma es 15")
 
-          var resultadoResta = x - y;
-          console.log("El resultado de la resta es "+resultadoResta);
+        //   var resultadoResta = x - y;
+        //   console.log("El resultado de la resta es "+resultadoResta);
 
-          var resultadoMulti = x * y;
-          console.log("El resultado de la multiplicacion es "+resultadoMulti);
+        //   var resultadoMulti = x * y;
+        //   console.log("El resultado de la multiplicacion es "+resultadoMulti);
 
-          var resultadoDivi = y / x;
-          console.log("El resultado de la division es "+resultadoDivi);
+        //   var resultadoDivi = y / x;
+        //   console.log("El resultado de la division es "+resultadoDivi);
 
-          var resultadoModulo = y % x;
-          console.log("El resultado del modulo es: " + resultadoModulo);
+        //   var resultadoModulo = y % x;
+        //   console.log("El resultado del modulo es: " + resultadoModulo);
 
-          x++;
-          console.log("Incremento " + x);
+        //   x++;
+        //   console.log("Incremento " + x);
 
-          x--;
-          console.log("Decremento " + y);
+        //   x--;
+        //   console.log("Decremento " + y);
 
-          var comparar = x > y;
-          console.log("El resultado es: " + comparar);
+        //   var comparar = x > y;
+        //   console.log("El resultado es: " + comparar);
 
+        //PRIMER EJERCICIO
+        // if(edad < 18){
+        //     alert("Tu eres menor de edad");
+        // } else {
+        //     alert("Tu eres mayor de edad");
+        // }
+
+        //SEGUNDO EJERCICIO
+        // if(edad <18){
+        //     alert("Eres menor de 18 años");
+        // } else if (edad >=18 && edad <= 28){
+        //     alert("Estas entre los 18 y los 28 años");
+        // } else{
+        //     alert("Eres mayor de 28 años");
+        // }
+
+        //TERCER EJERCICIO
+
+       /* var nota = 1;
+
+        switch (nota){
+            case 1:
+                alert("Reprobado");
+                break;
+
+            case 5:
+                alert("Reprobado");
+                break;
+
+            case 7:
+                alert("Panzaste!");
+                break;
+
+            case 10:
+                alert("Aprobado");
+                break;
+
+            default:
+                alert("No aplica");
+                break;    
+        }*/
+
+        //CUARTO EJERCICIO
+
+        var tablaMultiplicar = prompt('Introduce el numero de la tbla que quieres multiplicar:');
+        
+        var tabla = Number(tablaMultiplicar);
+
+        for (var i=1; i<=10; i++){
+            alert(tabla + "x" + i + "=" +(tabla * i));
+        }
 
 
 
