@@ -87,17 +87,40 @@
                 break;    
         }*/
 
+        /*
         //CUARTO EJERCICIO
 
-        var tablaMultiplicar = prompt('Introduce el numero de la tbla que quieres multiplicar:');
+        var tablaMultiplicar = prompt('Introduce el numero de la tabla que quieres multiplicar:');
         
         var tabla = Number(tablaMultiplicar);
 
         for (var i=1; i<=10; i++){
             alert(tabla + "x" + i + "=" +(tabla * i));
         }
+        */
 
+        //FUNCIONES
+        //EJERCICIO 1
+        function sumar(a, b){
+            var resultado = a + b;
+            alert(resultado);
+        }
 
+        sumar(4, 54);
+
+        //EJERCICIO 2
+        function esMayordeEdad(edadParametro){
+            if(edadParametro < 18){
+                alert("Eres menor de 18 anios");
+            }else if(edadParametro >=18 && edadParametro <=28){
+                alert("Estas entre los 18 y los 28 anios");
+            }else{
+                alert("Eres mayor de 28 anios");
+            }
+        }
+ 
+        var edadPrompt = prompt("Introduce tu edad, por favor:");
+        esMayordeEdad(Number(edadPrompt));
 
     </script>
 
