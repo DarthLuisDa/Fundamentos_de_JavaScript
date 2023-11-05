@@ -27,7 +27,7 @@ console.log(persona.apellido) */
 
 //Tercera Forma de declarar un objeto
 
-let persona = new Object()
+/*let persona = new Object()
 persona["nombre"] = 'Daniel',
 persona["apellido"] = 'Vargas',
 persona["edad"] = 26
@@ -36,5 +36,5 @@ delete persona.pais
 
 //console.log(persona)
 console.log(`Mi nombre es ${persona.nombre} y mi apellido es ${persona.apellido}`)
-console.log("Mi nombre es" + " "+ persona.nombre + " " + "y mi apellido es" + " " + persona.apellido)
+console.log("Mi nombre es" + " "+ persona.nombre + " " + "y mi apellido es" + " " + persona.apellido) */
 
